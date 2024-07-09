@@ -3,9 +3,9 @@
 This repository contains the code and resources for the project "Multi-Label Predictions on Academic Articles". The primary objective of this project is to classify research papers into multiple labels (e.g., Computer Science, Physics, Mathematics, etc.) using Natural Language Processing (NLP) techniques. The project explores various models and algorithms to achieve robust multi-label classification.
 
 ## Team Members
-Aishwarya Kandasamy (A20550631) 
-Deepika Alagiriswamy Panneerselvam (A20544574) 
-Mubariz Ahmed Khan (A20525145) 
+Aishwarya Kandasamy (A20550631)  
+Deepika Alagiriswamy Panneerselvam (A20544574)  
+Mubariz Ahmed Khan (A20525145)  
 Priyanka Basani (A20513566)  
 Ranjitha Aswath (A20526404) 
 
@@ -88,3 +88,19 @@ The dataset used in this project consists of research articles categorized into 
 ## Approach 5: Rakel Algorithm
 - Implemented the Rakel Algorithm for ensemble learning.
 - Used RandomForestClassifier as the base classifier with TF-IDF vectorization.
+
+## Conclusions
+- BERT outperformed other methods and algorithms.
+- TF-IDF was generally more effective than Word2Vec.
+- Balanced data outperformed imbalanced data in every model.
+
+## Project Challenges
+- Addressing class imbalance.
+- Limited GPU resources prevented the use of high-performance LLMs like RoBERTa and GPT.
+- Extended runtime with some transformation methods and algorithms.
+
+## Future Work
+- Explore hybrid approaches combining MLC methods and classification algorithms.
+- Use advanced text representation techniques like RoBERTa and XLNet.
+- Implement adaptive imbalance handling methods.
+- Experiment with ensemble learning strategies for enhanced model robustness.
